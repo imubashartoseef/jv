@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="res"></div>
+
+    <script>
+        const investment = 55;
+        const bounus = 10;
+        var amount = 0 + investment + bounus;
+
+        const tPrice = 10;// 1 titcket price is $10
+        var tProfit = 0;
+        var i = (amount - (investment%10)) / 10;
+        var voucher = 0;
+
+        while( i > 0){
+            console.log(tProfit += 0.25);
+            i--;
+        }
+        amount += tProfit;
+        console.log(amount);
+        const dVocher = 3;
+        var ticketQ = ((voucher + dVocher) - ((voucher + dVocher)%2))/2;
+
+        voucher = (voucher + dVocher)%2;
+
+        while( ticketQ > 0){
+            console.log(amount += 0.25);
+            ticketQ--;
+        }
+        //amount += tProfit;
+
+        console.log(amount);
+    </script>
+</body>
+</html>
