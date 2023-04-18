@@ -1,9 +1,11 @@
+body::-webkit-scrollbar {
+    display: none;
+}
 body{
     background: #eee;
     overflow-x: hidden;
-}
-body::-webkit-scrollbar {
-    display: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 .mySlide img {
     height: 200px;
