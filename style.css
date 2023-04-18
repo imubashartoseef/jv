@@ -30,3 +30,11 @@ body{
 }
 
 /* Carasoule */
+
+
+/* Bottom Menu */
+.bottom-box-menu .btn {
+    font-size: 1.5rem;
+    width: 50px;
+    text-align: center;
+}
