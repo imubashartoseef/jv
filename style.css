@@ -2,6 +2,9 @@ body{
     background: #eee;
     overflow-x: hidden;
 }
+body::-webkit-scrollbar {
+    display: none;
+}
 .mySlide img {
     height: 200px;
 }
